@@ -123,7 +123,7 @@ def inner_four(input_list):
 
     """
 
-    return input_list[2:7]
+    return input_list[2:6]
 
 
 def inner_four_end(input_list):
@@ -205,6 +205,8 @@ def delete_third_and_seventh(input_list):
 
     """
 
+    del input_list[2:8:4]
+
     pass
 
 
@@ -221,6 +223,8 @@ def delete_middle(input_list):
     True
 
     """
+
+    del input_list[2:-2]
 
     pass
 
