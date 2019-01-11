@@ -154,7 +154,7 @@ def replace_head(input_list):
 
     """
     input_list[0] = 42
-    pass
+    
 
 
 def replace_third_and_last(input_list):
@@ -171,7 +171,7 @@ def replace_third_and_last(input_list):
     input_list[2] = 37
     input_list[-1] = 37
 
-    pass
+    
 
 
 def replace_middle(input_list):
@@ -190,7 +190,7 @@ def replace_middle(input_list):
 
     """
     input_list[2:-2] = [42, 37]
-    pass
+    
 
 
 def delete_third_and_seventh(input_list):
@@ -207,7 +207,7 @@ def delete_third_and_seventh(input_list):
 
     del input_list[2:8:4]
 
-    pass
+    
 
 
 def delete_middle(input_list):
@@ -226,8 +226,7 @@ def delete_middle(input_list):
 
     del input_list[2:-2]
 
-    pass
-
+    
 
 ##############################################################################
 # END OF MAIN EXERCISE.  Yay!  You did it! You Rock!
